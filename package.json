@@ -8,7 +8,8 @@
     "start:client": "nx serve client",
     "jest": "npx jest",
     "jest:coverage": "npx jest --coverage",
-    "test": "npx nx run-many --target=test --all --codeCoverage"
+    "test": "npx nx run-many --target=test --all --codeCoverage",
+    "populate:db": "npx ts-node ./tools/populate-todos.ts"
   },
   "private": true,
   "dependencies": {

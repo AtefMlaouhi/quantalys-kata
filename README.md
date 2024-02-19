@@ -1,3 +1,6 @@
+
+![](./images/welcome-banner.svg)
+
 # Quantalys To-Do
 
 ## Backend - `server`
@@ -107,6 +110,8 @@ Actual coverage
 ### Add DockerFile using nginx
 
 ### Change icon for front-end application using icon in directory '/images/favicon.ico'
+
+![](./images/favicon.ico)
 
 ### Update angular to last stable version
 
