@@ -1,0 +1,26 @@
+:host {
+  display: block;
+
+  .header {
+    display: flex;
+    background-color: #2E3440;
+    color: #ECEFF4;
+    height: 3rem;
+
+    .header__application {
+      display: flex;
+      flex: 0 0 auto;
+      min-width: 10rem;
+      padding: 0 24px;
+      height: 3rem;
+
+      &>* {
+        display: inline-flex;
+        align-items: center;
+        height: 3rem;
+        text-decoration: none;
+      }
+    }
+  }
+
+}

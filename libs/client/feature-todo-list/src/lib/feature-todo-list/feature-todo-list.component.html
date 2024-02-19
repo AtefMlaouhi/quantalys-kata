@@ -1,0 +1,14 @@
+<div class="content-container">
+  <div *ngFor="let todo of todos">
+    <span>
+      {{ todo.title}}
+    </span>
+    |
+    <span>
+      {{ todo.description}}
+    </span>
+    |
+    <span>
+      {{ todo.completed}}
+    </span>
+  </div>

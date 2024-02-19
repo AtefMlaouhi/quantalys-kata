@@ -1,0 +1,17 @@
+html {
+  color: #2E3440;
+  line-height: 1.2rem;
+  font-size: 20px;
+  letter-spacing: normal;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    * {
+      box-sizing: inherit;
+    }
+  }
+}

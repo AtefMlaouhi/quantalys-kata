@@ -1,0 +1,23 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "stylelint.enable": true,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "jestTestExplorer.logpanel": true,
+  "jestTestExplorer.pathToJest": "node_modules/.bin/jest",
+  "testExplorer.useNativeTesting": true,
+  "prettier.configPath": ".prettierrc",
+  "prettier.prettierPath": "node_modules/prettier",
+  "prettier.enableDebugLogs": true,
+  "prettier.jsxSingleQuote": true
+}
